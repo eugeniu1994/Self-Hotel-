@@ -6,9 +6,10 @@ The app is based on:
 2. server-side: - C#, .NET, sql Server.
 
 SQL for:
+1. Data definition or data description language (DDL) 
+2. CRUD Operations (create, select, update, delete)
 
-Data definition or data description language (DDL) 
-CRUD Operations (create, select, update, delete)
+Server/Client-side validation, data manipulation
 
 <img src='home.png' />
 <img src='checkin.png' />
