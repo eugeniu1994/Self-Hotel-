@@ -1,0 +1,70 @@
+Formulare
+======================================
+Toate formularele trebuie sa aiba traducere
+
+Form main
+-> bara de sus mai ingusta... fara meniu text
+-> Buton checkin checkout si meniu client
+-> Afisare jos lista de servicii oferite in hotel
+
+
+Formularul de login
+-> utilizator si parola
+-> cod optat prin mail sau sms
+
+Formular de identificare rezervare
+-> cod rezervare + cod secret (optat de trimis pe mail sau sms)
+
+Formular lista rezervari (apare numai la cont)
+	O lista de rezervari care sa contina
+	Unitatea de cazare
+	pentru unitatea de cazare sumar pentru fiecare rezervare (tip camera cu nr persoane total valoare)
+	la click pe rezervare afisez formular informatii rezervare
+		
+
+Formular informatii rezervare
+	Se afiseaza lista de camere cu nr persoane tarif si servicii
+	Daca sosirea este in viitor afisam informatii detaliate despre rezervare
+			Daca sosirea este azi afisez butonul checkin
+			Posibilitatea de anulare rezervare -> trimit mail de confirmare anulare
+
+Formular plata
+	Afisez lista cu camere si soldurile lor (pun niste bife de ok pentru alea deja achitate)
+	Selecteaza camerele ce doreste sa le achite
+	Pe urma selecteaza metoda de plata
+	La final selecteaza datele de facturare
+	Formularul doar returneaza la pagina anterioara (revine de unde a fost apelat)
+
+Formular de disponibilitati
+	Sus direct pus calendarul pentru selectat data finala
+	Sub calendar sau in cadrul calendarului scris nr ne nopti
+	Buton de verifica disponibilitati
+	-> Deschidem online booking (trebuie sa am posibilitatea sa preiau informatii din sistemul solon legat de utilizator)
+	-> trebuie sa opteaz pentru posibilitatea de a sari peste pasul 5
+
+
+Formular checkout
+Lista cu camerele care nu sunt iesite
+Daca are sold apasa butonul achita si face plata
+Daca nu are sold apasa direct butonul checkout si le dau checkout la camere
+
+
+Formular minibar
+-> ala din siteul pentru camerista
+
+
+Formular inregistrare utilizator
+-> sa completeze informatiile necesare pentru rezervari
+		Email
+		Parola
+		Token
+
+		Nume prenume
+		Telefon
+
+		Tara
+		Judet
+		Localitate
+		Strada si nr
+-> se confirma inregistrare cont pe mail
+

@@ -1,0 +1,121 @@
+Functionalitati
+===================================================
+
+CHECKIN
+-> il intreb daca are sau nu rezervare
+	-> daca are rezervare (trebuie sa o identific)
+		-> identific prin cont sau cu cod rezervare?
+			-> prin cont
+				-> dupa login afisez lista de rezervari curente
+				-> selecteaza rezervarea
+				-> afisez informatiile despre camere/costuri
+				-> intreb daca doreste plata acum sau mai tarziu
+					-> daca vrea plat acum sar in formularul de achitare
+					-> daca vrea mai tarziu sar in formularul de extrauri (generare card sau altceva)
+			-> prin cod rezervare
+				-> introduce codul si identific rezervarea
+				-> intreb daca doreste plata acum sau mai tarziu
+					-> daca vrea plat acum sar in formularul de achitare
+					-> daca vrea mai tarziu sar in formularul de extrauri (generare card sau altceva)
+	
+	-> daca nu are rezervare
+		-> checkin cu cont sau fara cont?
+			-> Cu cont
+				-> il pun sa selecteze data de plecare
+				-> afisez camerele disponibile
+				-> selecteaza camera
+				-> precompletez titular rezervare pentru camere
+				-> completeaza datele pentru ceilalti in camera
+				-> afisez informatiile despre camere/costuri
+				-> intreb daca doreste plata acum sau mai tarziu
+					-> daca vrea plat acum sar in formularul de achitare
+					-> daca vrea mai tarziu sar in formularul de extrauri (generare card sau altceva)
+			-> fara cont
+				-> il pun sa selecteze data de plecare
+				-> afisez camerele disponibile
+				-> selecteaza camera
+				-> il pun sa completeze datele titularului (aici imi trebuie mail si/sau telefon)
+				-> completeaza datele pentru ceilalti in camera
+				-> afisez informatiile despre camere/costuri
+				-> intreb daca doreste plata acum sau mai tarziu
+					-> daca vrea plata acum sar in formularul de achitare
+					-> daca vrea mai tarziu sar in formularul de extrauri (generare card sau altceva)
+				-> ii trimit mail de confirmare pentru rezervare pe mail
+				-> la confirmare ii trimit mail cu informatii despre rezervare si codul rezervarii pentru identificare
+				
+-> Pentru toate cazurile se genereaza cazarea in SolonH
+-> Pentru cazurile cu plata se genereaza si plata+factura
+
+
+
+Meniu client
+-> Cu cont
+	-> afisez cazarile active
+		Optiuni
+		-> plata servicii
+			-> deschid formularul de plata
+		-> minibar
+			-> deschid formularul de adaugare consumatie minibar
+		-> alte servicii/facilitati
+			-> aici fiecare o sa aiba formular separat in fct de ce serviciu/facilitate este
+
+-> Fara cont
+	-> il pun sa introduca codul rezervarii ca sa identific rezervarea (mai trebuie si un cod de protectie prin sms sau mail)
+		Optiuni
+		-> plata servicii
+			-> deschid formularul de plata
+		-> minibar
+			-> deschid formularul de adaugare consumatie minibar
+		-> alte servicii/facilitati
+			-> aici fiecare o sa aiba formular separat in fct de ce serviciu/facilitate este
+			
+			
+			
+CHECKOUT
+-> Cu cont
+	-> afisez cazarile active
+	-> selecteaza cazarea
+	-> selecteaza camerele pentru care face checkout
+	-> daca are de plata afisez informatiile despre camere/costuri
+		-> trebuie sa apese butonul de plata
+			-> sar in formularul de achitare
+			-> dupa plata afisez formularul de checkout pentru finalizare
+	-> daca nu are de plata apasa direct butonul de checkout
+		-> generez iesirea camerei in SolonH
+
+-> Fara cont
+	-> il pun sa introduca codul reezervarii  (mai trebuie si un cod de protectie prin sms sau mail)
+	-> selecteaza camerele pentru care face checkout
+	-> daca are de plata afisez informatiile despre camere/costuri
+		-> trebuie sa apese butonul de plata
+			-> sar in formularul de achitare
+			-> dupa plata afisez formularul de checkout pentru finalizare
+	-> daca nu are de plata apasa direct butonul de checkout
+		-> generez iesirea camerei in SolonH
+
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+DE DISCUTAT
+---------------------------------
+PRELUNGIRE SEJUR
+Se acceseaza din interfata client
+Ar trebui sa verificam daca are disponibilitate pe camera in care se afla + verificare disponibilitate ca tip camera
+	-> Daca nu are disponibilitate pe tip camera afisez ce camere sunt disponibile pentru perioada (plecare - data de prelungire)
+	-> Daca are disponibilitate pe tip camera
+		-> Daca are disponibilitate pe camera respectiva
+			-> se calculeaza tariful pentru zilele de prelungire... se adauga ca servicii... se afiseaza cat e de plata... 
+		-> Daca nu are disponibilitate camera respectiva
+			-> aici ar trebui sa am lista cu camere disponibile... dar cam aiurea sa ia turistul decizia in ce camera
+			-> mai degraba sa oferim ca cerere receptiei

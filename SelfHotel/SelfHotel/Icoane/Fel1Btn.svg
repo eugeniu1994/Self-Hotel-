@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Fel1Btn.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.1811 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09449 : 526.1811 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.7874 : 1"
+       id="perspective3405" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="975.44905"
+     inkscape:cy="508.26099"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#f2f2f2;fill-opacity:1"
+       d="M 373.57227,149.50586 A 319.28571,304.28571 0 0 0 54.285156,453.79102 319.28571,304.28571 0 0 0 373.57227,758.07617 319.28571,304.28571 0 0 0 692.85742,453.79102 319.28571,304.28571 0 0 0 373.57227,149.50586 Z m 0,22.94141 A 288.64404,280.13605 0 0 1 662.21484,452.58398 288.64404,280.13605 0 0 1 373.57227,732.71875 288.64404,280.13605 0 0 1 84.927734,452.58398 288.64404,280.13605 0 0 1 373.57227,172.44727 Z"
+       id="path3385" />
+    <g
+       id="g4155">
+      <rect
+         y="278.84808"
+         x="369.52179"
+         height="350"
+         width="61"
+         id="rect3423"
+         style="fill:#f2f2f2;fill-opacity:1" />
+      <rect
+         transform="matrix(0.78087116,0.6246921,-0.6246921,0.78087116,0,0)"
+         y="-13.06524"
+         x="462.95981"
+         height="177.14285"
+         width="61"
+         id="rect3423-5"
+         style="fill:#f2f2f2;fill-opacity:1" />
+    </g>
+  </g>
+</svg>

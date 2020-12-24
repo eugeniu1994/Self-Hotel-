@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-88nc{font-weight:bold;border-color:inherit;text-align:center}
+.tg .tg-kiyi{font-weight:bold;border-color:inherit;text-align:left}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-xldj{border-color:inherit;text-align:left}
+.tg-sort-header::-moz-selection{background:0 0}.tg-sort-header::selection{background:0 0}.tg-sort-header{cursor:pointer}.tg-sort-header:after{content:'';float:right;margin-top:7px;border-width:0 5px 5px;border-style:solid;border-color:#404040 transparent;visibility:hidden}.tg-sort-header:hover:after{visibility:visible}.tg-sort-asc:after,.tg-sort-asc:hover:after,.tg-sort-desc:after{visibility:visible;opacity:.4}.tg-sort-desc:after{border-bottom:none;border-width:5px 5px 0}@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}
+ .celulaAscunsa {
+            border: none !important;
+            border-left: 1px solid !important;
+            border-right: 1px solid !important;    
+        }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </style>
+
+</head>
+<body>
+    <div class="tg-wrap">
+
+        <table id="tg-rwLtp" class="tg">
+        <tr>
+    <th class="tg-0pky" colspan="2">Furnizor: $[Furnizor]<br>Capital social: $[Capitalsocial]<br>Reg com: $[Regcom]<br>Codul Fiscal: $[Cif]<br>Sediul: $[Sediul]<br>$[Cont]</th>
+    <th class="tg-baqh" colspan="3"><span style="font-weight:700">Seria: $[Seria] Nr. $[Numar]</span><br><span style="font-weight:700">Factura</span><br><span style="font-weight:700">Fiscala</span><br><span style="font-weight:700">Nr. facturii: $[Numar]</span><br><span style="font-weight:700">Data: $[Data]</span><br><span style="font-weight:700">$[PL]</span><br></th>
+    <th class="tg-0lax" colspan="3">Cumparator: $[Cumparator]<br>Nr. Reg. Com.: $[RegComcumparator]<br>CUI/CNP: $[Cifcumparator]<br>Sediul: $[Sediulcumparator]<br>$[ContCumparator]<br>$[BancaCumparator]</th>
+  </tr>
+          <tr>
+            <td class="tg-fymr">Nr.<br>Crt.</td>
+            <td class="tg-kiyi">Denumirea produselor sau a serviciilor</td>
+            <td class="tg-amwm">Cota <br>TVA<br><br></td>
+            <td class="tg-amwm">U.M.</td>
+            <td class="tg-88nc">Cantitate</td>
+            <td class="tg-amwm">Pret unitar <br>(fara TVA)<br>lei</td>
+            <td class="tg-amwm">Valoare<br>(fara TVA)<br>lei</td>
+            <td class="tg-88nc">Valoare<br>TVA<br>LEI</td>
+          </tr>
+
+             $[Camere]
+<!--  <tr>
+    <td class="tg-0pky">$[t0]</td>
+    <td class="tg-xldj">$[t1]</td>
+    <td class="tg-0lax">$[t2]</td>
+    <td class="tg-0lax">$[t3]</td>
+    <td class="tg-xldj">$[t4]</td>
+    <td class="tg-0lax">$[t5]</td>
+    <td class="tg-0lax">$[t6]</td>
+    <td class="tg-xldj">$[t7]</td>
+  </tr>-->
+
+  <tr>
+    <td class="tg-0lax" colspan="8">$[ObsSubsol]</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" colspan="8">Termen de plata $[Termendeplata]</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="2">Semnatura si stampila<br>furnizorului<br><br><br><br></td>
+    <td class="tg-0lax" rowspan="2">Data privind expeditia<br>Numele delegatului: $[Delegat]<br>Buletin/cartea de identitate: $[CIDelegat]<br>Mijloc de transport: $[Transport]</td>
+    <td class="tg-0lax" colspan="2">Total LEI</td>
+    <td class="tg-0lax" colspan="2">$[TotalFaraTVA]</td>
+    <td class="tg-0lax" colspan="2">$[TVA]</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" colspan="2">Semnatura de primire<br><br></td>
+    <td class="tg-0lax" colspan="2">Total de plata LEI</td>
+    <td class="tg-0lax" colspan="2">$[Total]</td>
+  </tr>
+</table>
+
+    </div>
+
+<script charset="utf-8">var TGSort = window.TGSort || function (n) { "use strict"; function r(n) { return n.length } function t(n, t) { if (n) for (var e = 0, a = r(n) ; a > e; ++e) t(n[e], e) } function e(n) { return n.split("").reverse().join("") } function a(n) { var e = n[0]; return t(n, function (n) { for (; !n.startsWith(e) ;) e = e.substring(0, r(e) - 1) }), r(e) } function o(n, r) { return -1 != n.map(r).indexOf(!0) } function u(n, r) { return function (t) { var e = ""; return t.replace(n, function (n, t, a) { return e = t.replace(r, "") + "." + (a || "").substring(1) }), l(e) } } function i(n) { var t = l(n); return !isNaN(t) && r("" + t) + 1 >= r(n) ? t : NaN } function s(n) { var e = []; return t([i, m, g], function (t) { var a; r(e) || o(a = n.map(t), isNaN) || (e = a) }), e } function c(n) { var t = s(n); if (!r(t)) { var o = a(n), u = a(n.map(e)), i = n.map(function (n) { return n.substring(o, r(n) - u) }); t = s(i) } return t } function f(n) { var r = n.map(Date.parse); return o(r, isNaN) ? [] : r } function v(n, r) { r(n), t(n.childNodes, function (n) { v(n, r) }) } function d(n) { var r, t = [], e = []; return v(n, function (n) { var a = n.nodeName; "TR" == a ? (r = [], t.push(r), e.push(n)) : ("TD" == a || "TH" == a) && r.push(n) }), [t, e] } function p(n) { if ("TABLE" == n.nodeName) { for (var e = d(n), a = e[0], o = e[1], u = r(a), i = u > 1 && r(a[0]) < r(a[1]) ? 1 : 0, s = i + 1, v = a[i], p = r(v), l = [], m = [], g = [], h = s; u > h; ++h) { for (var N = 0; p > N; ++N) { r(m) < p && m.push([]); var T = a[h][N], C = T.textContent || T.innerText || ""; m[N].push(C.trim()) } g.push(h - s) } var L = "tg-sort-asc", E = "tg-sort-desc", b = function () { for (var n = 0; p > n; ++n) { var r = v[n].classList; r.remove(L), r.remove(E), l[n] = 0 } }; t(v, function (n, t) { l[t] = 0; var e = n.classList; e.add("tg-sort-header"), n.addEventListener("click", function () { function n(n, r) { var t = d[n], e = d[r]; return t > e ? a : e > t ? -a : a * (n - r) } var a = l[t]; b(), a = 1 == a ? -1 : +!a, a && e.add(a > 0 ? L : E), l[t] = a; var i = m[t], v = function (n, r) { return a * i[n].localeCompare(i[r]) || a * (n - r) }, d = c(i); (r(d) || r(d = f(i))) && (v = n); var p = g.slice(); p.sort(v); for (var h = null, N = s; u > N; ++N) h = o[N].parentNode, h.removeChild(o[N]); for (var N = s; u > N; ++N) h.appendChild(o[s + p[N - s]]) }) }) } } var l = parseFloat, m = u(/^(?:\s*)([+-]?(?:\d+)(?:,\d{3})*)(\.\d*)?$/g, /,/g), g = u(/^(?:\s*)([+-]?(?:\d+)(?:\.\d{3})*)(,\d*)?$/g, /\./g); n.addEventListener("DOMContentLoaded", function () { for (var t = n.getElementsByClassName("tg"), e = 0; e < r(t) ; ++e) try { p(t[e]) } catch (a) { } }) }(document);</script>
+</body>
+</html>

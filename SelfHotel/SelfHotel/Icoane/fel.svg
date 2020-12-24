@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="24px"
+   version="1.1"
+   viewBox="0 0 24 24"
+   width="24px"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="fel.svg">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="miu" />
+  <title
+     id="title4" />
+  <desc
+     id="desc6" />
+  <defs
+     id="defs8" />
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="miu"
+     stroke="none"
+     stroke-width="1">
+    <g
+       id="Artboard-1"
+       transform="translate(-611.000000, -515.000000)"
+       style="fill:#f2f2f2">
+      <g
+         id="slice"
+         transform="translate(215.000000, 119.000000)"
+         style="fill:#f2f2f2" />
+      <path
+         d="M620.5,524.441381 L622,523.012014 L622,516 L623,517.5 L623,523.5 L620.5,526 C620.5,526 620.75,528.871103 620.75,531.5 C620.75,534.128897 620.5,538 620.5,538 L619.5,538 C619.5,538 619.25,534.148672 619.25,531.5 C619.25,528.851328 619.5,526 619.5,526 L617,523.5 L617,517.5 L618.002367,516 L618.002367,523.012014 L619.5,524.440817 L619.5,516 L620.5,516 L620.5,524.441381 Z M629.076824,525.699326 C629.076824,525.699326 630,524.872782 630,520.978407 C630,519.458309 629.551585,516 626.235294,516 L626.235294,526.202603 C626.235294,526.202603 626,529.151952 626,531.609743 C626,534.067534 626.235294,538 626.235294,538 L627.176471,538 C627.176471,538 627.411765,534.176973 627.411765,531.609743 C627.411765,529.042513 627.176471,526.202603 627.176471,526.202603 C627.176471,526.202603 628.43219,526.386475 629.076824,525.699326 Z"
+         fill="#000000"
+         id="food-fork-knife-restaurant-eating-glyph"
+         style="fill:#f2f2f2" />
+    </g>
+  </g>
+</svg>

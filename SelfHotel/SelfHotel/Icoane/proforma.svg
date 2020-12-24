@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="32px"
+   version="1.1"
+   viewBox="0 0 32 32"
+   width="32px"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="proforma.svg">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="7.375"
+     inkscape:cx="-5.220339"
+     inkscape:cy="16"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4" />
+  <desc
+     id="desc6" />
+  <defs
+     id="defs8" />
+  <g
+     style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:1"
+     id="icon-45-note-list"
+     transform="matrix(1.3478261,0,0,1.3478261,-6.3493002,-5.9425207)">
+    <path
+       inkscape:connector-curvature="0"
+       id="note-list"
+       d="M 21.5,28 7.0001062,28 C 5.895478,28 5,27.098373 5,25.999136 L 5,7.0008642 C 5,5.8958174 5.9016273,5 7.0008642,5 L 25.999136,5 C 27.104183,5 28,5.8945138 28,6.9940603 L 28,20.5 l 0,0.5 -6,7 -0.5,0 0,0 0,0 z M 6,11 6,26.001254 C 6,26.561385 6.4510659,27 7.007484,27 L 21,27 21,22.005919 C 21,20.886555 21.894496,20 22.997913,20 L 27,20 27,11 6,11 6,11 6,11 Z M 6,10 6,6.9987461 C 6,6.4471539 6.4386148,6 6.9987461,6 L 26.001254,6 C 26.552846,6 27,6.4499488 27,7.0068455 L 27,10 6,10 6,10 Z m 16,16.5 0,-4.491215 C 22,21.451648 22.450651,21 22.996739,21 L 26.699951,21 22,26.5 l 0,0 z m -9,-8.5 0,1 7,0 0,-1 -7,0 0,0 z m -5,-1 0,3 3,0 0,-3 -3,0 0,0 z m 1,1 0,1 1,0 0,-1 -1,0 0,0 z m 4,-4 0,1 12,0 0,-1 -12,0 0,0 z m -5,-1 0,3 3,0 0,-3 -3,0 0,0 z m 1,1 0,1 1,0 0,-1 -1,0 0,0 z m 4,8 0,1 6,0 0,-1 -6,0 0,0 z m -5,-1 0,3 3,0 0,-3 -3,0 0,0 z m 1,1 0,1 1,0 0,-1 -1,0 0,0 z"
+       style="fill:#000000" />
+  </g>
+</svg>

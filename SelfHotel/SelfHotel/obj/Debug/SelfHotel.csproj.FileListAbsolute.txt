@@ -1,0 +1,12 @@
+C:\Users\Eugeniu\Desktop\SelfHotel\SelfHotel\bin\SelfHotel.dll
+C:\Users\Eugeniu\Desktop\SelfHotel\SelfHotel\bin\SelfHotel.pdb
+C:\Users\Eugeniu\Desktop\SelfHotel\SelfHotel\bin\Owin.dll
+C:\Users\Eugeniu\Desktop\SelfHotel\SelfHotel\obj\Debug\SelfHotel.dll
+C:\Users\Eugeniu\Desktop\SelfHotel\SelfHotel\obj\Debug\SelfHotel.pdb
+C:\Users\Eugeniu\Desktop\SelfHotel\SelfHotel\obj\Debug\SelfHotel.csprojResolveAssemblyReference.cache
+D:\work\CasaMarcat\Kiosc\SelfHotel\SelfHotel\bin\SelfHotel.dll
+D:\work\CasaMarcat\Kiosc\SelfHotel\SelfHotel\bin\SelfHotel.pdb
+D:\work\CasaMarcat\Kiosc\SelfHotel\SelfHotel\bin\Owin.dll
+D:\work\CasaMarcat\Kiosc\SelfHotel\SelfHotel\obj\Debug\SelfHotel.dll
+D:\work\CasaMarcat\Kiosc\SelfHotel\SelfHotel\obj\Debug\SelfHotel.pdb
+D:\work\CasaMarcat\Kiosc\SelfHotel\SelfHotel\obj\Debug\SelfHotel.csprojResolveAssemblyReference.cache

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<title>Header document SolonCloud�</title>
+		<script>
+		    function subst() {
+		        var vars = {};
+		        var x = window.location.search.substring(1).split('&');
+		        for (var i in x) { var z = x[i].split('=', 2); vars[z[0]] = unescape(z[1]); }
+		        var x = ['frompage', 'topage', 'page', 'webpage', 'section', 'subsection', 'subsubsection'];
+		        for (var i in x) {
+		            var y = document.getElementsByClassName(x[i]);
+		            for (var j = 0; j < y.length; ++j) y[j].textContent = vars[x[i]];
+		        }
+		    }
+		</script>
+		<style>
+			body {
+				font-family: calibri;
+				font-size: 10pt;
+				border: 0;
+			}
+			td.left {
+				text-align: left;
+			}			
+			td.right {
+				text-align: right;
+			}
+			td {
+				padding: 0;
+			}
+		</style>
+	</head>
+	<body style="border:0;" onload="subst()">
+		<table style="border-bottom: 1px solid black; width: 100%;">
+			<tr>
+				<td><span>Self hotel</span></td>
+			</tr>
+			<tr>
+				<td><!--Cod fiscal: <span>$[codFiscal]</span>--></td>
+				<td class="right">Data emiterii: <span>04.12.2018 10:48</span></td>
+			</tr>
+		</table>
+		<br>
+	</body>
+</html>

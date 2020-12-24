@@ -1,0 +1,504 @@
+﻿/*body {
+	padding: 1px;
+    background-image: linear-gradient(to left, #4facfe 0%, #00f2fe 100%);
+}*/
+
+html
+{
+	font-family:Calibri;
+}
+
+.login {
+	width: 440px;
+	position: relative;
+	margin: 50px auto;
+}
+.content {
+	width: 640px;
+	position: relative;
+	margin: 50px auto;
+}
+.content2 {
+    margin: 50px auto;
+}
+.sigla {
+	position: relative;
+	text-align: center;
+    margin-bottom: 25px;
+    transform: translateX(-50%);
+    left: 51%;
+    width: 60%;
+}
+.exactCenter {
+		width: 396px;
+		position: fixed;
+		background-color: #3498db;
+		margin-top: -94px;
+		margin-left: -100px;
+	}
+.boxCont {
+	/*width: 400px;*/
+	padding: 15px;
+	border: 5px solid #ccc;
+	
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3), inset 0px 0px 0px 1px white;
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3), inset 0px 0px 0px 1px white;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3), inset 0px 0px 0px 1px white;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #d3efff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d3efff));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#d3efff 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#d3efff 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#d3efff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d3efff',GradientType=0 );
+	background: linear-gradient(to bottom,  #ffffff 0%,#d3efff 100%);
+	
+	overflow: hidden;
+}
+/* Shadow */
+.boxCont:after {
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	width: 100%;
+	
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	
+	-webkit-box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.5);
+}
+
+.boxCont div {
+	overflow: hidden;
+}
+/* Input */
+input[type="text"], input[type="password"], input[type="email"],input[type="date"], select,#datepicker1{
+	padding: 14px 10px;
+	width: 94%;
+	border: 1px solid #ccc;
+	display: block;
+	float: right;
+	background-color:whitesmoke;
+	
+	-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+}
+#myDropdown1 {
+	padding: 0px 10px;
+	width: 70%;
+	border: 1px solid #ccc;
+	display: block;
+	float: right;
+	
+	background: #d3efff;
+	background: -moz-linear-gradient(top,  #d3efff 0%, #ffffff 55%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3efff), color-stop(55%,#ffffff));
+	background: -webkit-linear-gradient(top,  #d3efff 0%,#ffffff 55%);
+	background: -o-linear-gradient(top,  #d3efff 0%,#ffffff 55%);
+	background: -ms-linear-gradient(top,  #d3efff 0%,#ffffff 55%);
+	background: linear-gradient(top,  #d3efff 0%,#ffffff 55%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3efff', endColorstr='#ffffff',GradientType=0 );
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+input[type="text"],input[type="password"],input[type="email"], select, #myDropdown1 {
+	margin-top: 5px;
+}
+
+a#forgotpass {
+	/*color: #ccc;*/
+	text-decoration: none;
+	/*font: 12px/18px Arial, sans-serif;*/
+	margin-top: 12px;
+    margin-bottom: -7px;
+	display: block;
+}
+.btn3d {
+	position: relative;
+	top: -6px;
+	border: 0;
+	transition: all 40ms linear;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+	-moz-outline-style: none;
+	outline: medium none;
+}
+.btn3d:active,
+.btn3d.active {
+	top: 2px;
+}
+.btn3d.btn-blue {
+	box-shadow: 0 0 0 1px #006080 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #004d66, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+	background-color: #0081AB;
+}
+.btn3d.btn-blue:active,
+.btn3d.btn-blue.active {
+	box-shadow: 0 0 0 1px #006080 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+	background-color: #0081AB;
+}
+.btn3d.btn-primary {
+	box-shadow: 0 0 0 1px #b93802 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #AA0000, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+	background-color: #D73814;
+}
+.btn3d.btn-primary:active,
+.btn3d.btn-primary.active {
+	box-shadow: 0 0 0 1px #b93802 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+	background-color: #D73814;
+}
+
+header {
+	background: #fff;
+	width: 100%;
+	height: 50px;
+	/*position: fixed;*/
+	top: 0;
+	left: 0;
+	border-bottom: 4px solid #4C9CF1;
+	z-index: 2;
+}
+#logo{
+	margin: 4px;
+	float: left;
+	width: 200px;
+	height: 40px;
+	display: block;
+}
+nav {
+	float: right;
+}
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+table { 
+	width: 100%; 
+	border-collapse: collapse; 
+	}
+tr:nth-of-type(odd) { 
+	background: #eee; 
+	}
+th { 
+	background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+	}
+td, th { 
+	padding: 10px; 
+	/*border: 1px solid #ccc;*/ 
+	text-align: left; 
+	font-size: 18px;
+	}
+.coloana {
+    background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+    float:left;
+    padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+}
+.cut-text { 
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space: nowrap;
+}
+#myTable tr.header, #myTable tr:hover {
+  background-color: #3498db !important;
+  color:white;
+  /*border:1px solid black;*/
+}
+.invalid { border-color: red !important; }
+#myInput , #myInputCUI, #myInputFirme{
+  background-position: 0px 4px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 12px 0px 12px 32px;
+}
+li.selected {background:blue;}
+#idDivCuClienti .selected {
+    background: #0068b1 !important;
+}
+#idDivCuClienti div:hover {
+    background: #0068b1 !important;
+}
+.selected {
+    background:#0068b1 !important;
+}
+
+#menu-icon {
+	display: hidden;
+	width: 60px;
+    height: 53px;
+	background: url(../Icoane/generaMenu.png) center no-repeat;
+}
+a:hover#menu-icon {
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+}
+
+a
+{
+	text-decoration: none;
+    color: inherit;
+}
+
+
+a.ButonMeniu
+{
+	font-weight:normal;
+	padding:5px;
+	color:#0068b1;
+	border-bottom:5px solid #0068b1;
+        text-decoration: none;
+}
+
+a.ButonMeniu:hover
+{
+	color:#5FBA7D;
+	border-bottom:5px solid #5FBA7D;
+        text-decoration: none;
+}
+
+a.current{
+   color:#5FBA7D;
+   border-bottom:10px solid #5FBA7D;
+       text-decoration: none;
+}
+
+/*---------------------------------------------------------------------------------------*/
+#btnLogin,#btnLogin2, #btnOK
+{
+	background-color:#0068b1;
+	color:white; 
+	padding: 10px 25px 10px 25px;float:left;width:87%; margin-top:10px;
+	-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+font-weight:bold;
+}
+
+#btnLogin:hover,#btnLogin2:hover, #btnOK:hover
+{
+	background-color:#5FBA7D;
+}
+
+#lnkAiUitatParola,#lnkAiUitatParola2
+{
+	margin-top:10px;
+	color:#0068b1;
+	float:right;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:large;
+}
+
+
+#btnCPLicente
+{
+	background-image:url('../Icoane/128_Activation_circle_blue.png');
+	background-repeat:no-repeat;background-size:auto;background-position:top center;position:relative;
+	width:150px;
+	height:150px;
+	float:left;
+	margin:10px;
+	color:#0068b1;
+}
+
+#btnCPDescarcari
+{
+	background-image:url('../Icoane/128_Download_circle_blue.png');
+	background-repeat:no-repeat;background-size:auto;background-position:top center;position:relative;
+	width:150px;
+	height:150px;
+	float:left;
+	margin:10px;
+	color:#0068b1;
+}
+
+#btnCPClienti
+{
+	background-image:url('../Icoane/128_Client_circle_blue.png');
+	background-repeat:no-repeat;background-size:auto;background-position:top center;position:relative;
+	width:150px;
+	height:150px;
+	float:left;
+	margin:10px;
+	color:#0068b1;
+}
+
+#btnCPUtilizatori
+{
+	background-image:url('../Icoane/128_User_circle_blue.png');
+	background-repeat:no-repeat;background-size:auto;background-position:top center;position:relative;
+	width:150px;
+	height:150px;
+	float:left;
+	margin:10px;
+	color:#0068b1;
+}
+
+#btnCPParteneri
+{
+	background-image:url('../Icoane/128_Handshake_circle_blue.png');
+	background-repeat:no-repeat;background-size:auto;background-position:top center;position:relative;
+	width:150px;
+	height:150px;
+	float:left;
+	margin:10px;
+	color:#0068b1;
+}
+
+#btnCPContact
+{
+	background-image:url('../Icoane/128_Envelope_circle_blue.png');
+	background-repeat:no-repeat;background-size:auto;background-position:top center;position:relative;
+	width:150px;
+	height:150px;
+	float:left;
+	margin:10px;
+	color:#0068b1;
+}
+
+#btnCPLicente:hover
+{
+	background-image:url('../Icoane/128_Activation_circle_green.png');
+	color:#5FBA7D;
+}
+
+#btnCPDescarcari:hover
+{
+	background-image:url('../Icoane/128_Download_circle_green.png');
+	color:#5FBA7D;
+}
+
+#btnCPClienti:hover
+{
+	background-image:url('../Icoane/128_Client_circle_green.png');
+	color:#5FBA7D;
+}
+
+#btnCPUtilizatori:hover
+{
+	background-image:url('../Icoane/128_User_circle_green.png');
+	color:#5FBA7D;
+}
+
+#btnCPParteneri:hover
+{
+	background-image:url('../Icoane/128_Handshake_circle_green.png');
+	color:#5FBA7D;
+}
+
+#btnCPContact:hover
+{
+	background-image:url('../Icoane/128_Envelope_circle_green.png');
+	color:#5FBA7D;
+}
+
+.btnInchide
+{
+	background-color:#0068b1;
+	color:white; 
+	padding: 10px 25px 10px 25px;float:left;width:87%; margin-top:10px;
+	-webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-weight:bold;
+    width: 100%;
+}
+
+.btnInchide:hover
+{
+	background-color:#5FBA7D;
+}
+
+#btnDescarcaDatecs
+{
+	background-image:url('../../Icoane/SOLON_CM_512.ico');
+	background-repeat:no-repeat;background-size:contain;background-position:top center;position:relative;
+	width:170px;
+	height:200px;
+	float:left;
+	margin:10px;
+	color:#0068b1;
+}
+
+#btnDescarcaDatecs:hover
+{
+	cursor:pointer;
+	background-image:url('../../Icoane/SOLON_CM_512.ico');
+	color:#5FBA7D;
+}
+
+#btnDescarcaActiva
+{
+	background-image:url('../../Icoane/SOLON_CM_512.ico');
+	background-repeat:no-repeat;background-size:contain;background-position:top center;position:relative;
+	width:170px;
+	height:200px;
+	float:left;
+	margin:10px;
+	color:#0068b1;
+}
+
+#btnDescarcaActiva:hover
+{
+	cursor:pointer;
+	background-image:url('../../Icoane/SOLON_CM_512.ico');
+	color:#5FBA7D;
+}
+
+
+@media only screen and (max-width : 750px) {
+    #menu-icon {
+        display: inline-block;
+    }
+    nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 0px 0px 10px 0px;
+        background: #fff;
+        border: 1px solid #444;
+        right: 0px;
+        top: 36px;
+        width: 260px;
+        border-radius: 4px 0 4px 4px;
+        z-index: 2;
+
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
+    nav li ul a {
+        background-image:url('../../Icoane/SOLON_CM_512.ico');
+    }
+    nav:hover ul {
+        display: block;
+    }
+    .SetariUtilizator {
+        width: 85%;
+    }
+}
